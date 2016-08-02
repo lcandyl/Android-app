@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+<TableRow>
+  <TextView
+    android:id="@+id/text1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str_text1"
+    android:textColor="@drawable/white"
+    android:textSize="16sp"
+  >
+  </TextView>
+    
+  <TimePicker
+    android:id="@+id/tPicker"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+  >
+  </TimePicker>
+   </TableRow>
+    <TableRow>
+  <TextView
+    android:id="@+id/text2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str_text2"
+    android:textColor="@drawable/white"
+   	android:textSize="16sp"
+
+  >
+  </TextView>
+
+   <TableRow>
+  <EditText
+    android:id="@+id/mEdit"
+    android:layout_width="150px"
+    android:layout_height="70px"
+    android:text="1"
+    android:textSize="16sp"
+     android:maxLength ="4"
+     android:digits="1234567890"
+  >
+  </EditText>
+  
+  <TextView
+    android:id="@+id/text3"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/str_text3"
+    android:textColor="@drawable/white"
+    android:textSize="16sp"
+  >
+  </TextView>
+     </TableRow>
+    </TableRow>
+</TableLayout>

@@ -1,0 +1,63 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myclass"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+    
+   <uses-permission  android:name="android.permission.VIBRATE"/>
+   <uses-permission android:name="android.permission.SEND_SMS" />
+   <uses-permission android:name="android.premission.RECEIVE_SMS"/>
+   <uses-permission android:name="android.permission.READ_SMS" />
+    <application
+        android:icon="@drawable/tubiao"
+        android:label="@string/app_name"
+       >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name_main" 
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity  android:label="@string/app_name"
+             android:name=".ScheduleInsert" 
+             android:screenOrientation="portrait"
+             android:theme="@android:style/Theme.NoTitleBar"
+             >
+         </activity>
+          <activity  android:label="@string/app_name"
+             android:name=".ClockActivity" 
+             android:screenOrientation="portrait"
+             android:theme="@android:style/Theme.NoTitleBar"
+             >
+         </activity>
+	     <activity android:label="@string/app_name" 
+	            android:name=".PreferenceSetting" 
+	            android:screenOrientation="portrait">     
+	     </activity>
+	         <activity  android:label="@string/app_name"
+             android:name=".AlarmAlert" 
+             android:screenOrientation="portrait"
+             android:theme="@android:style/Theme.NoTitleBar"
+             >
+         </activity>
+           <activity  android:label="@string/app_name"
+             android:name=".TelephonyDemo" 
+             android:screenOrientation="portrait"
+             android:theme="@android:style/Theme.NoTitleBar"
+             >
+         </activity>
+	      <receiver android:name=".CallAlarm"  android:process=":remote"/>
+	      <receiver android:name=".MySMSMonitor">
+	          <intent-filter>
+	              <action
+	                  android:name="android.provider.Telephony.SMS_RECEIVED"></action>
+	          </intent-filter>
+	      </receiver>
+         </application>
+</manifest>

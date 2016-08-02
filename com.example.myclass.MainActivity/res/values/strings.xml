@@ -1,0 +1,25 @@
+<resources>
+    <string name="hello">Welcome to log in!</string>
+    <string name="app_name">大学生课程表</string>
+     <string name="app_name_main">大学生课程表</string>
+    <string name="menu_settings">Settings</string>
+    <string name="editclass">编辑课表</string>
+    <string name="system_set">设置</string>
+    <string name="exit">退出</string>
+     <string name="sms">发送课表</string>
+    <string name="about">帮助</string>
+    <string name="cancel">取消</string>
+    <string name="help_text">1、可以在菜单中选择编辑课表来编辑课程表\n2、在设置菜单中可以清
+        空课程表、编辑开学时间、修改课程表背景、设置闹钟提醒\n3、选择发送课表功能，可以将你的课表发送给任意电话号码</string>
+  <string name="str_text1">开始时间</string>
+  <string name="str_text2">重复响起的闹钟</string>
+  <string name="str_text3">分钟</string>
+    <string name="str_text4">天</string>
+   <string name="str_title2">以分钟为单位\n重复响起的闹钟</string>
+  <string name="str_title3">闹钟一</string>
+   <string name="str_title4">闹钟二</string>
+   <string name="str_title5">以天为单位\n重复响起的闹钟</string>
+  <string name="str_default">目前无设置</string>
+   <string name="str_button1">设置闹钟</string>
+  <string name="str_button2">删除闹钟</string>
+</resources>

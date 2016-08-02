@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   <group android:id="@+id/logined" android:menuCategory="alternative">  
+        <item android:id="@+id/item1" android:title="@string/editclass" android:orderInCategory="1"   android:icon="@android:drawable/ic_menu_edit"></item>  
+        <item android:id="@+id/item2" android:title="@string/system_set" android:orderInCategory="2"   android:icon="@android:drawable/ic_menu_preferences"></item>  
+        <item android:id="@+id/item3" android:title="@string/about" android:orderInCategory="3"   android:icon="@android:drawable/ic_menu_help"></item> 
+        <item android:id="@+id/item4" android:title="@string/sms" android:orderInCategory="4"   android:icon="@android:drawable/ic_dialog_email"></item>   
+        <item android:id="@+id/item5" android:title="@string/exit" android:orderInCategory="5"   android:icon="@android:drawable/ic_menu_close_clear_cancel"></item>  
+   </group>  
+</menu>     
